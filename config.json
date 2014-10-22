@@ -1,0 +1,16 @@
+{
+  "db": {
+    "development": {
+      "client": "pg",
+      "connection": {
+        "host": "localhost",
+        "user": "timetable",
+        "password": "d850d584c167feb4b404cfff33c4d47028",
+        "database": "timetable"
+      }
+    },
+    "production": {
+
+    }
+  }
+}

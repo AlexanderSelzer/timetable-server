@@ -1,0 +1,160 @@
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-18T17:27:19.851Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-18T17:35:08.939Z"}
+{"_readableState":{"highWaterMark":16384,"buffer":[],"length":0,"pipes":null,"pipesCount":0,"flowing":false,"ended":false,"endEmitted":false,"reading":false,"calledRead":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"objectMode":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_maxListeners":10,"socket":{"_connecting":false,"_handle":{"fd":18,"writeQueueSize":0,"owner":{"$ref":"$[\"socket\"]"},"reading":true},"_readableState":{"highWaterMark":16384,"buffer":[],"length":0,"pipes":null,"pipesCount":0,"flowing":false,"ended":false,"endEmitted":false,"reading":true,"calledRead":true,"sync":false,"needReadable":true,"emittedReadable":false,"readableListening":false,"objectMode":false,"defaultEncoding":"utf8","ranOut":false,"awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{"drain":[null,null],"close":[null,null]},"_maxListeners":10,"_writableState":{"highWaterMark":16384,"objectMode":false,"needDrain":false,"ending":false,"ended":false,"finished":false,"decodeStrings":false,"defaultEncoding":"utf8","length":0,"writing":false,"sync":true,"bufferProcessing":false,"writecb":null,"writelen":0,"buffer":[],"errorEmitted":false},"writable":true,"allowHalfOpen":true,"destroyed":false,"bytesRead":88,"_bytesDispatched":0,"_pendingData":null,"_pendingEncoding":"","server":{"domain":null,"_events":{},"_maxListeners":10,"_connections":1,"connections":1,"_handle":{"fd":14,"writeQueueSize":0,"owner":{"$ref":"$[\"socket\"][\"server\"]"}},"_usingSlaves":false,"_slaves":[],"allowHalfOpen":true,"httpAllowHalfOpen":false,"timeout":120000,"_connectionKey":"4:0.0.0.0:8131"},"_idleTimeout":120000,"_idleNext":{"_idleNext":{"$ref":"$[\"socket\"]"},"_idlePrev":{"$ref":"$[\"socket\"]"}},"_idlePrev":{"$ref":"$[\"socket\"][\"_idleNext\"]"},"_idleStart":1413653711138,"parser":{"_headers":[],"_url":"","socket":{"$ref":"$[\"socket\"]"},"incoming":{"$ref":"$"},"maxHeaderPairs":2000},"_paused":false,"_httpMessage":{"domain":null,"_events":{},"_maxListeners":10,"output":[],"outputEncodings":[],"writable":true,"_last":false,"chunkedEncoding":false,"shouldKeepAlive":true,"useChunkedEncodingByDefault":true,"sendDate":true,"_headerSent":false,"_header":"","_hasBody":true,"_trailer":"","finished":false,"_hangupClose":false,"socket":{"$ref":"$[\"socket\"]"},"connection":{"$ref":"$[\"socket\"]"},"_headers":{"x-powered-by":"Express"},"_headerNames":{"x-powered-by":"X-Powered-By"},"req":{"$ref":"$"},"locals":{}}},"connection":{"$ref":"$[\"socket\"]"},"httpVersion":"1.1","complete":false,"headers":{"user-agent":"curl/7.30.0","host":"localhost:8131","accept":"*/*"},"trailers":{},"_pendings":[],"_pendingIndex":0,"url":"/user/alexn","method":"GET","statusCode":null,"client":{"$ref":"$[\"socket\"]"},"_consuming":false,"_dumped":false,"httpVersionMajor":1,"httpVersionMinor":1,"upgrade":false,"baseUrl":"","originalUrl":"/user/alexn","_parsedUrl":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":null,"pathname":"/user/alexn","path":"/user/alexn","href":"/user/alexn","_raw":"/user/alexn"},"params":{},"query":{},"res":{"$ref":"$[\"socket\"][\"_httpMessage\"]"},"body":{},"level":"info","message":"","timestamp":"2014-10-18T17:35:11.144Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-18T17:35:39.972Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-18T17:36:04.850Z"}
+{"level":"info","message":"/user/alexn","timestamp":"2014-10-18T17:36:06.672Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-18T17:36:20.255Z"}
+{"level":"info","message":"/user/alexn","timestamp":"2014-10-18T17:36:22.328Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-18T17:37:17.172Z"}
+{"level":"info","message":"GET /user/alexn","timestamp":"2014-10-18T17:37:19.950Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-18T17:39:00.588Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-18T17:45:13.904Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-19T17:32:15.663Z"}
+{"level":"info","message":"GET /user/alexn","timestamp":"2014-10-19T17:32:20.024Z"}
+{"level":"info","message":"GET /timetable/da9sdad","timestamp":"2014-10-19T17:32:29.081Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:32:45.656Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:33:17.393Z"}
+{"level":"info","message":"POST /signup","timestamp":"2014-10-19T17:33:31.946Z"}
+{"level":"info","message":"POST /register","timestamp":"2014-10-19T17:33:36.584Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-19T17:33:55.441Z"}
+{"level":"info","message":"POST /register","timestamp":"2014-10-19T17:33:58.637Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:34:02.293Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-19T17:35:43.880Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:35:45.648Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-19T17:38:07.401Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:38:09.645Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:38:35.046Z"}
+{"level":"info","message":"POST /logout","timestamp":"2014-10-19T17:38:37.596Z"}
+{"level":"info","message":"POST /signup","timestamp":"2014-10-19T17:38:46.685Z"}
+{"level":"info","message":"POST /register","timestamp":"2014-10-19T17:38:53.438Z"}
+{"level":"info","message":"POST /logout","timestamp":"2014-10-19T17:38:56.062Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:39:02.085Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:39:36.729Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:41:52.778Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:42:16.628Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-19T17:42:56.937Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:43:00.818Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-19T17:43:00.819Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-19T17:43:46.758Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:43:50.326Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-19T17:43:50.327Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-19T17:45:09.381Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:45:12.575Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-19T17:45:12.577Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:45:22.950Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-19T17:45:22.950Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-19T17:47:03.698Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:47:08.576Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-19T17:47:08.577Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:47:59.784Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-19T17:47:59.785Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-19T17:56:42.972Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:56:46.458Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-19T17:56:46.459Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-19T17:56:48.482Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-19T17:56:48.483Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T08:00:28.558Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T08:00:33.294Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T08:00:33.295Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T08:02:19.124Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T08:04:01.419Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T08:04:07.962Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T08:04:21.524Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T08:04:27.441Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T08:04:27.441Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T08:04:34.478Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T08:04:34.478Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T08:06:24.213Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T08:06:24.214Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T09:53:26.168Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:53:29.362Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:53:29.363Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T09:54:48.071Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:54:51.720Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:54:51.721Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:54:59.832Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:54:59.833Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T09:55:18.764Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:55:21.993Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:55:21.994Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T09:56:01.405Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:56:03.312Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:56:03.313Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:56:37.572Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:56:37.573Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:56:41.736Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:56:41.736Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T09:57:00.322Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:57:02.409Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:57:02.410Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T09:57:20.634Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:57:22.436Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:57:22.437Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T09:57:49.314Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:57:52.117Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:57:52.119Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T09:58:13.898Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:58:19.040Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:58:19.041Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T09:59:02.784Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T09:59:05.804Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T09:59:05.805Z"}
+{"level":"info","message":"GET /","timestamp":"2014-10-21T09:59:47.215Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T11:06:26.489Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T11:06:35.788Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T12:18:41.400Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:18:44.318Z"}
+{"level":"info","message":"user undefined attempts to log in","timestamp":"2014-10-21T12:18:44.319Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:19:46.631Z"}
+{"level":"info","message":"user undefined attempts to log in","timestamp":"2014-10-21T12:19:46.632Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T12:19:51.735Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:19:53.426Z"}
+{"level":"info","message":"user undefined attempts to log in","timestamp":"2014-10-21T12:19:53.428Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:20:34.367Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:20:34.368Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T12:21:17.897Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:21:23.977Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:21:23.977Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:21:27.417Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:21:27.417Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:21:31.123Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:21:31.123Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T12:25:09.089Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:25:16.391Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:25:16.391Z"}
+{"level":"info","message":"GET /","timestamp":"2014-10-21T12:25:20.745Z"}
+{"level":"info","message":"GET /timetable/1","timestamp":"2014-10-21T12:25:37.000Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:27:34.018Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:27:34.018Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:27:38.664Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:27:38.664Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:27:39.899Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:27:39.900Z"}
+{"level":"info","message":"GET /timetable/1","timestamp":"2014-10-21T12:27:56.665Z"}
+{"level":"info","message":"GET /timetable/1","timestamp":"2014-10-21T12:28:08.255Z"}
+{"level":"info","message":"GET /timetable/1","timestamp":"2014-10-21T12:29:06.981Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T12:29:09.962Z"}
+{"level":"info","message":"GET /user","timestamp":"2014-10-21T12:29:22.635Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-21T12:30:03.025Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:30:11.641Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:30:11.642Z"}
+{"level":"info","message":"GET /user","timestamp":"2014-10-21T12:30:21.011Z"}
+{"level":"info","message":"GET /user","timestamp":"2014-10-21T12:30:26.369Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-21T12:31:03.514Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-21T12:31:03.515Z"}
+{"level":"info","message":"GET /user","timestamp":"2014-10-21T12:31:21.424Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-22T06:39:38.762Z"}
+{"level":"info","message":"user undefined attempts to log in","timestamp":"2014-10-22T06:39:38.768Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-22T06:39:51.239Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-22T06:40:03.630Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-22T06:40:03.631Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-22T06:41:31.221Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-22T06:49:29.231Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-22T06:52:41.167Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-22T07:07:49.683Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-22T07:07:53.376Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-22T07:07:53.377Z"}
+{"level":"info","message":"GET /user","timestamp":"2014-10-22T07:08:09.986Z"}
+{"level":"info","message":"GET /user","timestamp":"2014-10-22T07:08:13.377Z"}
+{"level":"info","message":"GET /user","timestamp":"2014-10-22T07:08:14.805Z"}
