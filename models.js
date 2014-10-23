@@ -4,7 +4,10 @@ module.exports = function(bookshelf) {
     tableName: "users",
     initialize: function() {
 
-    }
+    },
+    name: "",
+    email: "",
+    password: ""
   })
 
   var Timetable = bookshelf.Model.extend({

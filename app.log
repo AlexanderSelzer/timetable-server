@@ -158,3 +158,37 @@
 {"level":"info","message":"GET /user","timestamp":"2014-10-22T07:08:09.986Z"}
 {"level":"info","message":"GET /user","timestamp":"2014-10-22T07:08:13.377Z"}
 {"level":"info","message":"GET /user","timestamp":"2014-10-22T07:08:14.805Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-22T17:39:01.055Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-22T17:39:05.508Z"}
+{"level":"info","message":"user undefined attempts to log in","timestamp":"2014-10-22T17:39:05.509Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-22T17:39:12.013Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-22T17:39:12.014Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-22T17:40:20.245Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-22T17:40:20.245Z"}
+{"level":"info","message":"POST /register","timestamp":"2014-10-22T17:40:27.581Z"}
+{"level":"info","message":"PUT /register","timestamp":"2014-10-22T17:40:55.722Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-22T17:41:16.537Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-22T17:42:20.838Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-22T17:42:23.040Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-22T17:42:43.973Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-22T17:43:08.051Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-22T17:43:10.023Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-22T17:43:37.009Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-22T17:45:11.434Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-23T07:27:54.066Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-23T07:30:11.823Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-23T07:30:17.754Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-23T07:31:56.986Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-23T07:32:03.158Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-23T07:34:57.977Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-23T07:35:01.132Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-23T07:35:23.597Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-23T07:35:25.863Z"}
+{"level":"info","message":"listening on port 8131","timestamp":"2014-10-23T07:35:29.026Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-23T07:35:30.901Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-23T07:35:42.132Z"}
+{"level":"info","message":"PUT /user","timestamp":"2014-10-23T07:36:01.678Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-23T07:36:08.574Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-23T07:36:08.575Z"}
+{"level":"info","message":"POST /login","timestamp":"2014-10-23T07:36:11.995Z"}
+{"level":"info","message":"user alex attempts to log in","timestamp":"2014-10-23T07:36:11.995Z"}

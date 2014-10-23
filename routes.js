@@ -57,17 +57,33 @@ module.exports = function(app) {
   */
 
   app.put("/user", function(req, res) {
-    var data = res.body
+    var data = req.body
 
-    var name = data.name
+    if (!data)
+      return res.send(400, {"status": "error", "msg": "no data"})
+
+    var name = data.username
+    if (!name)
+      return res.send({"status": "error", "msg": "name required"})
+
     var email = data.email
+    if (!email)
+      return res.send({"status": "error", "msg": "email required"})
+
+    var password = data.password
+    if (!password)
+      return res.send({"status": "error", "msg": "password required"})
 
     var user = new User({
       "name": name,
-      "email": email
+      "email": email,
+      "password": password
     })
 
     user.save()
+    .then(function() {
+      res.send({"status": "success"})
+    })
   })
 
   app.post("/login", function(req, res) {
@@ -84,7 +100,11 @@ module.exports = function(app) {
     .fetch()
     .then(function(model) {
       if (model)
-        res.send({token: jwt.sign({id: model.id, name: model.name}, app.get("secret"), {expiresInMinutes: 60 * 48})})
+        res.send({
+          token: jwt.sign({
+            id: model.id,
+            name: model.name
+          }, app.get("secret"), {expiresInMinutes: 60 * 48})})
       else
         res.send(401)
     })
