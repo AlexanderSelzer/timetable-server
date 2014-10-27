@@ -11,11 +11,41 @@ module.exports = function(app) {
   var Timetable = models.Timetable
 
   app.get("/", function(req, res) {
-    res.send(req.user)
+    res.send("hello")
   })
 
+  /**
+  * GET /user
+  *
+  * Get info about yourself
+  *
+  * {
+  *   status: String
+  *   data: null|user
+  * }
+  */
+
   app.get("/user", jwtRestrict({secret: app.get("secret")}), function(req, res) {
-    res.send(req.user)
+    User.query("where", "id", "=", req.user.id)
+    .fetch()
+    .then(function(user) {
+      if (user) {
+        Timetable.query("where", "user_id", "=", user.id)
+        .fetchAll()
+        .then(function(timetables) {
+          var data = {
+            "id": user.get("id"),
+            "email": user.get("email"),
+            "name": user.get("name"),
+            "timetables": timetables
+          }
+          res.send({status: "success", data: data})
+        })
+      }
+      else {
+        res.status(404).send({status: "not found"})
+      }
+    })
   })
 
   /**
@@ -31,6 +61,7 @@ module.exports = function(app) {
     User
       .query("where", "name", "=", req.params.name)
       .fetch()
+      // TODO check friendships
       .then(function(model) {
         if (model) {
           res.send({status: "success", data: model})
@@ -60,19 +91,19 @@ module.exports = function(app) {
     var data = req.body
 
     if (!data)
-      return res.send(400, {"status": "error", "msg": "no data"})
+      return res.status(400).send({"status": "error", "msg": "no data"})
 
     var name = data.username
     if (!name)
-      return res.send({"status": "error", "msg": "name required"})
+      return res.status(400).send({"status": "error", "msg": "name required"})
 
     var email = data.email
     if (!email)
-      return res.send({"status": "error", "msg": "email required"})
+      return res.status(400).send({"status": "error", "msg": "email required"})
 
     var password = data.password
     if (!password)
-      return res.send({"status": "error", "msg": "password required"})
+      return res.status(400).send({"status": "error", "msg": "password required"})
 
     var user = new User({
       "name": name,
@@ -110,14 +141,6 @@ module.exports = function(app) {
     })
   })
 
-  app.post("/logout", function(req, res) {
-
-  })
-
-  app.post("/register", function(req, res) {
-
-  })
-
   app.get("/timetable/:id", jwtRestrict({secret: app.get("secret")}), function(req, res) {
     res.send({
       id: req.params.name,
@@ -127,7 +150,24 @@ module.exports = function(app) {
     })
   })
 
-  app.put("/timetable", function(req, res) {
+  app.put("/timetable", jwtRestrict({secret: app.get("secret")}), function(req, res) {
+    var name = req.body.name
+    var ttData = req.body.data
 
+    if (!name)
+      res.send({"status": "error", "msg": "no name"})
+
+    if (!ttData)
+      res.send({"status": "error", "msg": "no data"})
+
+    if (ttData.length > 1e3 * 600 /*600 KB*/) {
+      res.send({"status": "error", "msg": "timetable too large"})
+    }
+
+    var tt = new Timetable({"name": name, "user_id": req.user.id, "data": ttData})
+    tt.save()
+    .then(function() {
+      res.send({"status": "success"})
+    })
   })
 }

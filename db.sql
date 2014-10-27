@@ -58,6 +58,34 @@ CREATE TABLE users (
 ALTER TABLE public.users OWNER TO "AlexanderSelzer1";
 
 --
+-- Name: users_id_seq; Type: SEQUENCE; Schema: public; Owner: AlexanderSelzer1
+--
+
+CREATE SEQUENCE users_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.users_id_seq OWNER TO "AlexanderSelzer1";
+
+--
+-- Name: users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: AlexanderSelzer1
+--
+
+ALTER SEQUENCE users_id_seq OWNED BY users.id;
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: AlexanderSelzer1
+--
+
+ALTER TABLE ONLY users ALTER COLUMN id SET DEFAULT nextval('users_id_seq'::regclass);
+
+
+--
 -- Name: timetables_pkey; Type: CONSTRAINT; Schema: public; Owner: AlexanderSelzer1; Tablespace: 
 --
 
@@ -101,6 +129,16 @@ REVOKE ALL ON TABLE users FROM PUBLIC;
 REVOKE ALL ON TABLE users FROM "AlexanderSelzer1";
 GRANT ALL ON TABLE users TO "AlexanderSelzer1";
 GRANT ALL ON TABLE users TO timetable;
+
+
+--
+-- Name: users_id_seq; Type: ACL; Schema: public; Owner: AlexanderSelzer1
+--
+
+REVOKE ALL ON SEQUENCE users_id_seq FROM PUBLIC;
+REVOKE ALL ON SEQUENCE users_id_seq FROM "AlexanderSelzer1";
+GRANT ALL ON SEQUENCE users_id_seq TO "AlexanderSelzer1";
+GRANT ALL ON SEQUENCE users_id_seq TO timetable;
 
 
 --

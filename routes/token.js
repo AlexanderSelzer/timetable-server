@@ -1,1 +1,0 @@
-var levelup = require("levelup")
